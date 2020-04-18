@@ -1,3 +1,15 @@
+# A simple and basic React project using my ShowoScreen component
+
+
+![alt text](showosg.gif)
+
+![alt text](showoscreen1.png)
+
+![alt text](showoscreen2.png)
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
