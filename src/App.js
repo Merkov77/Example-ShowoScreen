@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ShowoScreen from './components/showoscreen';
 import Showo from './components/showo';
 import WebMain from './components/main';
