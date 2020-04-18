@@ -1,0 +1,70 @@
+*{
+	font-family: sans-serif;
+	margin: 0;
+}
+
+/*
+	If there is not conection to internet for use bootstrap, then use this stylesheet
+*/
+
+.Main{
+}
+
+.Welcome{
+	padding: 30px;
+	background: #f4c2e3;
+	color: #892e6b;
+	font-weight: bold;
+	font-size: 150%;
+	margin:20px;
+	text-align: center;
+
+}
+.Info{
+	padding: 20px;
+	text-align: center;
+	font-style: italic;
+}
+
+.Header, .Section, .Aside, .Footer{
+	padding: 20px;
+}
+.Middle{
+	display: flex;
+	flex-flow: wrap row;
+}
+.Header{
+	padding: 40px;
+	background: linear-gradient(to bottom, #3b326d, #261d55);
+	color: #fff;
+	font-size: 190%;
+	z-index: 1;
+}
+.Section{
+	background: #f2f2f2;
+	flex-grow: 1;
+	flex-basis: 100%;
+}
+.Aside{
+	background: #dbdbdb;
+	flex-grow: 1;
+	flex-basis: 100%;
+}
+.Footer{
+	background: #bbbbbb;
+}
+
+@media all and (min-width: 600px){
+	.Section{
+		flex: 1 1 auto;
+	}
+}
+
+@media all and (min-width: 800px){
+	.Section{
+		flex: 3 0;
+	}
+	.Aside{
+		flex: 1 0;
+	}
+}
